@@ -1,58 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="ressources/img/favicon.ico" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="vendors/css/reboot.css"  />
-  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="ressources/css/style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Htc-Vive</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>HTC-vive | </title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="ressources/img/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link href="ressources/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="ressources/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link href="ressources/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="ressources/css/owl.theme.default.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="ressources/css/animate.css" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="ressources/css/aos.css" rel="stylesheet">
+    <!-- Lity CSS -->
+    <link href="ressources/css/lity.min.css" rel="stylesheet">
+    <!-- Our Min CSS -->
+    <link href="ressources/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
-  <!--Debut du Header-->
-  <header>
-    <!--Debut de la navigation-->
-    <nav class="navbar navbar-default htc-menu" data-spy="htc-menu">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_menu" aria-expanded="false">
-            <span class="sr-only">Interrupteur navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand scroll-section" href="index.html"><img src="ressources/img/logo.png" class="img-responsive" alt=""></a>
+    <!-- Start Preloader -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="cube1"></div>
+            <div class="cube2"></div>
         </div>
-        <!--Mettre les liens, la forme et les autre contenu pour naviguer-->
-        <div class="collapse navbar-collapse" id="main_menu">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a class="scroll-section" href="#debut">Accueil</a></li>
-            <li><a class="scroll-section" href="#presentation">presentation</a></li>
-            <li><a class="scroll-section" href="#jeux">jeux</a></li>
-            <li><a class="scroll-section" href="#prix">prix</a></li>
-            <li><a class="scroll-section" href="#site">partenaire</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toogle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a class="scroll-section" href="#blog-recent">Blog recent</a></li>
-                <li><a href="#">Rien</a></li>
-                <li><a href="#">Rien</a></li>
-              </ul>
-            </li>
-            <li><a class="scroll-section" href="#contact">contact</a></li>
-          </ul>
+    </div>
+    <!-- End Preloader -->
+    <!-- Start Header -->
+    <header>
+        <!-- Start Nav -->
+        <nav class="navbar navbar-default appy-menu" data-spy="appy-menu">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand scroll-section" href="index.html"><img src="ressources/img/logo.png" class="img-responsive" alt=""></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="main_menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a class="scroll-section" href="#home_banner">Accueil</a></li>
+                        <li><a class="scroll-section" href="#about">A propos</a></li>
+                        <li><a class="scroll-section" href="#features">Fonctionnalités</a></li>
+                        <li><a class="scroll-section" href="#prix">Prix</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="scroll-section" href="#recent-blog">Le non Blog</a></li>
+                                <li><a href="blog.html">Rien</a></li>
+                                <li><a href="single-blog.html">Rien</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="scroll-section" href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <!-- End Nav -->
+        <!-- Start Home Banner -->
+        <section id="home_banner" class="home-slide" >
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mt-250"></div>
+                        <h3>Les jeux vidéo sous un nouvel aspect avec le HTC-Vive</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                        <a class="btn btn-default" href="https://www.vive.com/fr/product/" target="_blank" role="button">En savoir plus</a>
+                        <a class="btn btn-default" href="https://store.eu.vive.com/store/htcemea/fr_FR/buy/productID.5091056600/ThemeID.40354400" target="_blank" role="button">Acheter VIVE</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mt-200 hidden-sm hidden-xs"></div>
+                        <img src="ressources/img/htc-vive.png" class="img-responsive center-block" alt="photo du htc-vive" width="140%">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Home Banner -->
+    </header>
+    <!-- End Header -->
+    <!-- Start About Section -->
+    <section id="about" class="padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heade text-center">
+                    <h3>A propos du VIVE</h3>
+                    <div class="space-25"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        <br>sed do eiusmod tempor incididunt ut labore.</p>
+                    <div class="space-50"></div>
+                </div>
+                <div class="col-md-4 text-center about-box" data-aos="fade-up" data-aos-delay="200">
+                    <img src="ressources/img/controller.png" class="img-responsive center-block" alt="manettes du htc-vive" width="70%">
+                    <h4>Manettes</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod</p>
+                </div>
+                <div class="col-md-4 text-center about-box" data-aos="fade-up" data-aos-delay="400">
+                    <img src="ressources/img/base-station.png" class="img-responsive center-block" alt="image de station htc" width="70%">
+                    <h4>Base station</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod</p>
+                </div>
+                <div class="col-md-4 text-center about-box" data-aos="fade-up" data-aos-delay="600">
+                    <img src="ressources/img/vive_lady.png" class="img-responsive center-block" alt="image de personne avec vive" width="70%">
+                    <h4>Exemple</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod</p>
+                </div>
+            </div>
         </div>
-        <!--Fin des lien/formes/etc-->
-      </div>
-    </nav>
-    <!--Fin de la navigation-->
-  </header>
+    </section>
+    <!-- End About Section -->
 
 
 
@@ -61,13 +141,24 @@
 
 
 
-    <!--test Jquery pour owlcarousel-->
-    <script src="vendors/js/jquery.min.js"></script>
-    <!--Owl carousel-->
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-    <!--mon Test de JS-->
-    <script src="ressources/js/java.js"></script>
 
-</body>
 
-</html>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="ressources/js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <!-- Bootstrap JS -->
+        <script src="ressources/js/bootstrap.min.js"></script>
+        <!-- Owl Carousel JS -->
+        <script src="ressources/js/owl.carousel.min.js"></script>
+        <!-- Counterup JS -->
+        <script src="ressources/js/waypoints.min.js"></script>
+        <script src="ressources/js/jquery.counterup.js"></script>
+        <!-- AOS JS -->
+        <script src="ressources/js/aos.js"></script>
+        <!-- lity JS -->
+        <script src="ressources/js/lity.min.js"></script>
+        <!-- Our Main JS -->
+        <script src="ressources/js/java.js"></script>
+    </body>
+
+    </html>
