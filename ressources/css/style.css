@@ -107,13 +107,13 @@ a:hover {
 }
 
 .btn-default.blue {
-    color: #2a3b71;
-    border-color: #2a3b71;
+    color: #3498db;
+    border-color: #3498db;
 }
 
 .btn-default.blue:hover {
-    color: #fff;
-    background: #2a3b71;
+    color: black;
+    background: #3498db;
 }
 
 .mt-200 {
@@ -148,7 +148,7 @@ a:hover {
     color: #2a3b71;
     margin: 0;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
     letter-spacing: 5px;
 }
@@ -158,7 +158,7 @@ a:hover {
     margin: 0;
     font-weight: 400;
     line-height: 30px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .section-heade.white h3,
@@ -348,13 +348,13 @@ ul.social-icons li.pinterest:hover {
 .preloader .spinner .cube1,
 .preloader .spinner .cube2 {
     background-color: black;
-    width: 15px;
-    height: 15px;
+    width: 35px;
+    height: 35px;
     position: absolute;
     top: 0;
     left: 0;
-    -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
-    animation: sk-cubemove 1.8s infinite ease-in-out;
+    -webkit-animation: sk-cubemove 2.5s infinite ease-in-out;
+    animation: sk-cubemove 2.5s infinite ease-in-out;
 }
 
 .preloader .spinner .cube2 {
@@ -790,9 +790,44 @@ ul.social-icons li.pinterest:hover {
     08. END TESTIMONIAL SECTION
 ------------------------------*/
 
+#prix .table-prix {
+  border: 1px solid black;
+  margin-top: 25px;
+  -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@media (max-width: 992px) {
+    #prix .table-prix {
+        margin-bottom: 30px;
+    }
+}
+
+#prix .table-prix:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -o-transform: scale(1.07);
+    transform: scale(1.07);
+}
+#prix .table-prix:hover .btn-default.blue {
+    color: #fff;
+    background: #3498db ;
+}
+#prix .table-prix h4 {
+    font-size: 35px;
+    margin: 0;
+    text-transform: uppercase;
+}
+#prix .table-prix .photo-htc img {
+    margin: 0;
+}
+
 /*------------------------------
     11. START PRICE TABLE SECTION
-------------------------------*/
+-
 
 #price .price-table {
     border: 1px solid #2a3b71;
@@ -862,7 +897,7 @@ ul.social-icons li.pinterest:hover {
 }
 
 
-/*------------------------------
+
     11. END PRICE TABLE SECTION
 ------------------------------*/
 
