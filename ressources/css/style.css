@@ -813,18 +813,22 @@ ul.social-icons li.pinterest:hover {
     -o-transform: scale(1.07);
     transform: scale(1.07);
 }
+
 #prix .table-prix:hover .btn-default.blue {
     color: #fff;
     background: #3498db ;
 }
+
 #prix h3{
   padding-bottom: 55px;
 }
+
 #prix .table-prix h4 {
     font-size: 35px;
     margin: 0;
     text-transform: uppercase;
 }
+
 #prix .table-prix .photo-htc img {
     margin: 0;
 }
@@ -835,85 +839,10 @@ ul.social-icons li.pinterest:hover {
     line-height: 55px;
     list-style: none;
 }
+
 #prix .table-prix span{
   font-size: 55px;
 }
-
-/*------------------------------
-    11. START PRICE TABLE SECTION
--
-
-#price .price-table {
-    border: 1px solid #2a3b71;
-    margin-top: 20px;
-    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    -o-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-@media (max-width: 992px) {
-    #price .price-table {
-        margin-bottom: 30px;
-    }
-}
-
-#price .price-table:hover {
-    cursor: pointer;
-    -webkit-transform: scale(1.07);
-    -moz-transform: scale(1.07);
-    -o-transform: scale(1.07);
-    transform: scale(1.07);
-}
-
-#price .price-table:hover .btn-default.blue {
-    color: #fff;
-    background: #2a3b71;
-}
-
-#price .price-table.feature {
-    color: #bf095d;
-    border-color: #bf095d;
-    padding: 20px 0;
-    margin-top: 0;
-}
-
-#price .price-table.feature:hover .btn-default.colored {
-    color: #fff;
-    background: #bf095d;
-}
-
-#price .price-table h4 {
-    font-size: 30px;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-#price .price-table .cost h3 {
-    margin: 0;
-    font-size: 100px;
-    font-weight: 600;
-    line-height: 70px;
-}
-
-#price .price-table .cost h3 span {
-    font-size: 30px;
-    line-height: 26px;
-}
-
-#price .price-table ul {
-    margin: 0;
-}
-
-#price .price-table ul li {
-    font-size: 20px;
-    line-height: 50px;
-}
-
-
-
-    11. END PRICE TABLE SECTION
-------------------------------*/
 
 /*------------------------------
     23. START FOOTER SECTION
