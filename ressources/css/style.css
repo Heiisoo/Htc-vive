@@ -78,10 +78,10 @@ a:hover {
 .btn-default {
     border-radius: 50px;
     background: transparent;
-    padding: 10px 20px;
+    padding: 15px 20px;
     min-width: 170px;
-    border: 2px solid #fff;
-    font-size: 14px;
+    border: 3px solid #fff;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fff;
@@ -808,10 +808,10 @@ ul.social-icons li.pinterest:hover {
 
 #prix .table-prix:hover {
     cursor: pointer;
-    -webkit-transform: scale(1.07);
-    -moz-transform: scale(1.07);
-    -o-transform: scale(1.07);
-    transform: scale(1.07);
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -o-transform: scale(1.09);
+    transform: scale(1.09);
 }
 
 #prix .table-prix:hover .btn-default.blue {
