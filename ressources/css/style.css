@@ -439,7 +439,7 @@ ul.social-icons li.pinterest:hover {
 
 .appy-menu ul li a {
     color: black !important;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 700;
@@ -451,7 +451,7 @@ ul.social-icons li.pinterest:hover {
 }
 
 .appy-menu ul li .dropdown-menu li a {
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 2px;
     padding: 8px 15px;
     text-transform: capitalize;
@@ -791,7 +791,8 @@ ul.social-icons li.pinterest:hover {
 ------------------------------*/
 
 #prix .table-prix {
-  border: 1px solid black;
+  border: 2px solid black;
+  box-shadow: 10px 10px 0px  #3498db ;
   margin-top: 25px;
   -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -816,6 +817,9 @@ ul.social-icons li.pinterest:hover {
     color: #fff;
     background: #3498db ;
 }
+#prix h3{
+  padding-bottom: 55px;
+}
 #prix .table-prix h4 {
     font-size: 35px;
     margin: 0;
@@ -823,6 +827,16 @@ ul.social-icons li.pinterest:hover {
 }
 #prix .table-prix .photo-htc img {
     margin: 0;
+}
+
+#prix .table-prix ul li {
+    margin: 0;
+    font-size: 25px;
+    line-height: 55px;
+    list-style: none;
+}
+#prix .table-prix span{
+  font-size: 55px;
 }
 
 /*------------------------------
