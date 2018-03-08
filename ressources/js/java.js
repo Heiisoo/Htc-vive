@@ -1,5 +1,4 @@
-/*jslint browser: true*/
-/*global $, jQuery ,AOS*/
+
 
 
 (function ($) {
@@ -147,18 +146,13 @@
         }
         /*END RECENT BLOG SLIDER JS*/
 
+        wow = new WOW(
+          {
+            boxClass:     'wow',      // default
 
+                  }
+            )
+            wow.init();
     });
-
-    /*$(window).on('resize', function(event){
-        var windowSize = $(window).width();
-        if(windowSize < 768){
-            $('.dropdown-submenu a').on("click", function(e){
-                $(this).next('ul').toggle();
-                e.stopPropagation();
-                e.preventDefault();
-            });
-        }
-    });*/
 
 }(jQuery));

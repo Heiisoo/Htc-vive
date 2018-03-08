@@ -1,37 +1,5 @@
 
-/* ----------------------------------------------------
-    CSS INDEX
 
-    01. START GENERAL STYLE (font, body, btn, section-title, placeholder, overlay, section-padding, margins ... etc)
-    02. START PRELOADER STYLE
-    03. START NAV STYLE
-    04. START SLIDE STYLE
-    05. START ABOUT SECTION
-    06. START FEATURES SECTION
-    07. START ONE-FEATURE SECTION
-    08. START TESTIMONIAL SECTION
-    09. START SCREENSHOTS SECTION
-    10. START COUNTUP SECTION
-    11. START PRICE TABLE SECTION
-    12. START VIDEO SECTION
-    13. START TEAM SECTION
-    14. START DOWNLOAD SECTION
-    15. START RECENT BLOG SECTION
-    16. START CALL TO ACTION SECTION
-    17. START FAQ SECTION
-    18. START CONTACT SECTION
-    19. START SUBSCRIBE SECTION
-    20. START BLOG PAGE
-    21. START SINGLE BLOG PAGE
-    22. START SIDEBAR
-    23. START FOOTER SECTION
-
-/* ----------------------------------------------------*/
-
-
-/*------------------------------
-    01. START GENERAL STYLE
-------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 body {
@@ -321,7 +289,7 @@ ul.social-icons li.pinterest:hover {
 
 
 /*------------------------------
-    02. START PRELOADER STYLE
+    02. START PRELOADER
 ------------------------------*/
 
 .preloader {
@@ -402,12 +370,12 @@ ul.social-icons li.pinterest:hover {
 
 
 /*------------------------------
-    - End Preloader Style
+    - End Preloader
 ------------------------------*/
 
 
 /*------------------------------
-    03. START NAV STYLE
+    03. START NAV
 ------------------------------*/
 
 .appy-menu {
@@ -654,12 +622,12 @@ ul.social-icons li.pinterest:hover {
 
 
 /*------------------------------
-    03. END NAV STYLE
+    03. END NAV
 ------------------------------*/
 
 
 /*------------------------------
-    04. START SLIDE STYLE
+    04. START SLIDE
 ------------------------------*/
 
 #home_banner {
@@ -745,11 +713,11 @@ ul.social-icons li.pinterest:hover {
 
 
 /*------------------------------
-    05. END ABOUT SECTION
+    05. END ABOUT
 ------------------------------*/
 
 /*------------------------------
-    08. START TESTIMONIAL SECTION
+    08. START PRIX
 ------------------------------*/
 
 #testimonial {
@@ -786,9 +754,7 @@ ul.social-icons li.pinterest:hover {
 }
 
 
-/*------------------------------
-    08. END TESTIMONIAL SECTION
-------------------------------*/
+
 
 #prix .table-prix {
   border: 2px solid black;
@@ -861,8 +827,3 @@ footer p {
     color: #fff;
     padding: 25px 0;
 }
-
-
-/*------------------------------
-    23. END FOOTER SECTION
-------------------------------*/
