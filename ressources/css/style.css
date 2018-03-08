@@ -809,21 +809,3 @@ ul.social-icons li.pinterest:hover {
 #prix .table-prix span{
   font-size: 55px;
 }
-
-/*------------------------------
-    23. START FOOTER SECTION
-------------------------------*/
-
-footer {
-  background: -moz-linear-gradient( -29deg, #2c3e50 0%, #3498db 100%);
-  background: -webkit-linear-gradient( -29deg, #3498db 0%,  #2c3e50 100%);
-  background: -ms-linear-gradient( -29deg, #3498db 0%,  #2c3e50 100%);
-}
-
-footer p {
-    margin: 0;
-    font-size: 14px;
-    font-weight: 400;
-    color: #fff;
-    padding: 25px 0;
-}
