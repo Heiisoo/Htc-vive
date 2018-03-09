@@ -432,7 +432,7 @@ ul.social-icons li.pinterest:hover {
 
 .appy-menu ul li.dropdown>a {
     background: transparent !important;
-    
+
 }
 
 .appy-menu ul li .dropdown-menu>a:after {
@@ -774,10 +774,10 @@ ul.social-icons li.pinterest:hover {
 
 #prix .table-prix:hover {
     cursor: pointer;
-    -webkit-transform: scale(1.09);
-    -moz-transform: scale(1.09);
-    -o-transform: scale(1.09);
-    transform: scale(1.09);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 #prix .table-prix:hover .btn-default.blue {
@@ -793,6 +793,7 @@ ul.social-icons li.pinterest:hover {
     font-size: 35px;
     margin: 0;
     text-transform: uppercase;
+    text-shadow: 0 2px 0 black;
 }
 
 #prix .table-prix .photo-htc img {
@@ -808,4 +809,5 @@ ul.social-icons li.pinterest:hover {
 
 #prix .table-prix span{
   font-size: 55px;
+  text-shadow: 0 2px 0
 }
